@@ -22,6 +22,16 @@ class ClippedView @JvmOverloads constructor(
 
     private var path = Path()
 
+    private val clipRightRect = resources.getDimension(R.dimen.clipRectRight)
+    private val clipRectBottom = resources.getDimension(R.dimen.clipRectBottom)
+    private val clipRectTop = resources.getDimension(R.dimen.clipRectTop)
+    private val clipRectLeft = resources.getDimension(R.dimen.clipRectLeft)
 
+    private val rectInset = resources.getDimension(R.dimen.rectInset)
+    private val smallRectOffset = resources.getDimension(R.dimen.smallRectOffset)
 
+    private val circleRadius = resources.getDimension(R.dimen.circleRadius)
+
+    private val textOffset = resources.getDimension(R.dimen.textOffset)
+    private val textSize = resources.getDimension(R.dimen.textSize)
 }
